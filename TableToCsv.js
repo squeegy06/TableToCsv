@@ -67,8 +67,6 @@
 
 	//jQuery extension for using Table to CSV.
 	$.fn.tabletocsv = function(options) {
-		var otherArgs = Array.prototype.slice.call(arguments, 1);
-		
 		//Execute.
 		return this.each( function() {
 			$.tabletocsv._execute(this, options);
